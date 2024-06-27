@@ -83,6 +83,9 @@ export default configure((/* ctx */) => {
             exclude: ['**/components/**'],
           },
         ],
+        [
+          'vite-plugin-vue-layouts',{}
+        ],
       ],
     },
 

@@ -30,7 +30,7 @@
     "prettier": "^3.0.3",
     "unplugin-vue-router": "^0.10.0",
     "vite-plugin-checker": "^0.6.4",
-    "vite-plugin-vue-layouts": "^0.11.0"
+    "vite-plugin-vue-layouts": "^0.8.0"
   },
   "engines": {
     "node": "^24 || ^22 || ^20 || ^18",
