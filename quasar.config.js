@@ -27,7 +27,7 @@ export default configure((/* ctx */) => {
       // 'themify',
       // 'line-awesome',
       // 'roboto-font-latin-ext', // this or either 'roboto-font', NEVER both!
-
+      'material-symbols-outlined',
       'roboto-font', // optional, you are not bound to it
       'material-icons', // optional, you are not bound to it
     ],
@@ -39,7 +39,7 @@ export default configure((/* ctx */) => {
         node: 'node20',
       },
 
-      vueRouterMode: 'hash', // available values: 'hash', 'history'
+      vueRouterMode: 'history', // available values: 'hash', 'history'
       // vueRouterBase,
       // vueDevtools,
       // vueOptionsAPI: false,
@@ -83,6 +83,7 @@ export default configure((/* ctx */) => {
             exclude: ['**/components/**'],
           },
         ],
+        ['vite-plugin-vue-layouts', {}],
       ],
     },
 
