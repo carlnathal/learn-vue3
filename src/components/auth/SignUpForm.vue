@@ -7,11 +7,13 @@
       <q-input placeholder="비밀번호(문자, 숫자조합 8자 이상)" outlined dense />
       <q-btn label="가입하기" class="full-width" unelevated color="primary" />
       <q-separator />
-      <q-btn label="로그인 하기" class="full-width" unelevated flat />
+      <q-btn label="로그인 하기" class="full-width" unelevated flat @click="$emit('changeView', 'SignInForm')"/>
     </q-form>
   </div>
 </template>
 
-<script setup></script>
+<script setup>
+defineEmits(['changeView']);
+</script>
 
 <style lang="scss" scoped></style>
